@@ -1,0 +1,2 @@
+Ponto de duvida:
+Na configuraçao do Quality gate, o sonar agora trata como feature premium a criação de um novo na organização. Durante o pipeline, ele acusa a linha 'uses: SonarSource/sonarqube-scan-action@v6' do meu ci.yaml com a mensagem "Use full commit SHA hash for this dependency.", por isso, não consegui fazer o check dar certo na PR.
