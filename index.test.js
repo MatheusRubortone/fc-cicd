@@ -1,5 +1,5 @@
 const { hello } = require('./index');
 
 test('retorna saudação correta', () => {
-  expect(hello('Fullcycle')).toBe('Hello, Fullcycle!');
+  expect(hello('Desafio Fullcycle')).toBe('Hello, Desafio Fullcycle!');
 });
